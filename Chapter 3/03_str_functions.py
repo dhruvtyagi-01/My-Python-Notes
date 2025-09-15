@@ -3,6 +3,7 @@ name = "dhruvtyagi"
 print(len(name))
 
 print(name.endswith("agi"))  # Output: True
+print(name.startswith("dhr"))  # Output: True
 
 count = name.count("r") 
 print(count)  # Output: 1
