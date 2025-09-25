@@ -1,5 +1,4 @@
-def goodDay():
-    name = input("Enter your name:")
-    print("GOOD DAY!", name.capitalize())
+def goodDay(name):
+    print("Good Day! " + name.capitalize())
 
-goodDay()
+goodDay("dhruv")
