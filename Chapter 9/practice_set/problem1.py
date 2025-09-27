@@ -1,4 +1,4 @@
-with open("09_problem1_poem.txt") as f:
+with open("poem.txt") as f:
     text = f.read().lower()
 
 word = input("Enter the word you want to check:").lower()
