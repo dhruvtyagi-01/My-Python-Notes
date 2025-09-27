@@ -1,25 +1,10 @@
-import random
+def generateTable(n):
+    table = ""
+    for i in range(1, 11):
+        table += f"{n} x {i} = {n * i}\n"
 
-def game():
-    print("You are playing the game")
-    score = random.randint(1, 50)
+    with open(f"tables/table_{n}.txt", "w") as f:
+        f.write(table)
 
-# Fetch the highscore
-    with open("highscore.txt") as f:
-        highscore = f.read()
-
-        if(highscore != ""):
-            highscore = int(highscore)
-        else:
-             highscore = 0
-
-    print(f"Your score is {score}")
-
-    if(score > highscore):
-        # Write this highscore to file
-        with open("highscore.txt", "w") as f:
-            f.write(str(score))
-
-    return score
-
-game()
+for i in range(2, 21):
+    generateTable(i)

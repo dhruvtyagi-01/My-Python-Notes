@@ -1,10 +1,12 @@
-def generateTable(n):
-    table = ""
-    for i in range(1, 11):
-        table += f"{n} x {i} = {n * i}\n"
+with open("file(4).txt") as f:
+    words = f.read().lower()
 
-    with open(f"tables/table_{n}.txt", "w") as f:
-        f.write(table)
+censor_words = ["donkey", "it", "the", "as"]
 
-for i in range(2, 21):
-    generateTable(i)
+censored_text = words
+
+for word in words:
+    censored_text = censored_text.replace(word, "####")
+
+with open("file(4).txt", "w") as f:
+    f.write(censored_text)
