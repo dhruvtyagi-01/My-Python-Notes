@@ -3,9 +3,9 @@ class Employee:
     salary = 1200000
 
 
-harry = Employee()
-harry.name = "Harry" # This is an instance attribute
-print(harry.name, harry.language, harry.salary)
+dhruv = Employee()
+dhruv.name = "Dhruv" # This is an instance attribute
+print(dhruv.name, dhruv.language, dhruv.salary)
 
 rohan = Employee()
 rohan.name = "Rohan Roro Robinson"
