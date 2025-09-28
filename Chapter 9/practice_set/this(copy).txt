@@ -1,0 +1,10 @@
+This is the first line of the file
+Learning new skills takes time
+Sometimes practice makes things easier
+Errors help us to improve
+Logs can store important information
+This is just a simple text file
+It has multiple lines for testing
+Each line may contain random words
+Reading files in Python is useful
+This is the last line of the file
