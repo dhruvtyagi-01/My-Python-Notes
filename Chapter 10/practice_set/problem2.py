@@ -1,4 +1,9 @@
 class Calculator:
+
+    @staticmethod
+    def greet():
+        print("Hello!")
+
     def __init__(self, n):
         self.n = n
 
@@ -11,10 +16,10 @@ class Calculator:
     def square_root(self):
         print(f"Square root is {pow(self.n, 1/2)}")
 
+Calculator.greet()
 
 value = float(input("Enter value to calculate:"))
 a = Calculator(value)
-
 a.square()
 a.cube()
 a.square_root()
