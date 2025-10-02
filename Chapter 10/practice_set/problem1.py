@@ -5,7 +5,7 @@ class Programmer:
         self.salary = salary
 
 
-p = Programmer("Dhruv", 1200000, 245001)
+p = Programmer("Dhruv", 1200000)
 print(p.name, p.salary, p.company)
 
 r = Programmer("Rohan", 1200000,)
