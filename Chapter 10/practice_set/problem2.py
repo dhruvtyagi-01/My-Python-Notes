@@ -8,13 +8,13 @@ class Calculator:
         self.n = n
 
     def square(self):
-        print(f"Square is {pow(self.n, 2)}")
+        print(f"Square is {self.n ** 2}")
 
     def cube(self):
-        print(f"Cube is {pow(self.n, 3)}")
+        print(f"Cube is {self.n ** 3}")
 
     def square_root(self):
-        print(f"Square root is {pow(self.n, 1/2)}")
+        print(f"Square root is {self.n ** (1/2)}")
 
 Calculator.greet()
 
