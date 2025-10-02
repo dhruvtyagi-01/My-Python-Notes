@@ -13,15 +13,15 @@ class Vector:
         return result
 
     def __str__(self):
-        return f"Vector({self.x}, {self.y}, {self.z})"
+        return f"Vector({self.x}i + {self.y}j + {self.z}k)"
 
 # Test the implementation
 v1 = Vector(1, 2, 3)
 v2 = Vector(4, 5, 6)
 v3 = Vector(7, 8, 9)  # Same dimension vector
 
-print(v1 + v2)  # Output: Vector(5, 7, 9)
+print(v1 + v2)  # Output: Vector(5i + 7j + 9k)
 print(v1 * v2)  # Output: 32
 
-print(v1 + v3)  # Output: Vector(8, 10, 12)
+print(v1 + v3)  # Output: Vector(8i + 10j + 12k)
 print(v1 * v3)  # Output: 50
