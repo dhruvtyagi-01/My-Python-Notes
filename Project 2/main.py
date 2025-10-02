@@ -1,7 +1,7 @@
 import random
 
 randomNum = random.randint(1, 100)
-guess = 0
+guess = 1
 
 print("\t\t--> GAME STARTED <--")
 
