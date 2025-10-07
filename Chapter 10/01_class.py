@@ -1,10 +1,10 @@
-class Employee: 
-    language = "Py" # This is a class attribute
+class Employee:
+    language = "Py"  # This is a class attribute
     salary = 1200000
 
 
 dhruv = Employee()
-dhruv.name = "Dhruv" # This is an instance attribute
+dhruv.name = "Dhruv"  # This is an instance attribute
 print(dhruv.name, dhruv.language, dhruv.salary)
 
 rohan = Employee()

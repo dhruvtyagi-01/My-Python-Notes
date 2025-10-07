@@ -5,6 +5,7 @@ class Demo:
     def show(cls):
         print(f"The class attribute is {cls.a}")
 
+
 e = Demo()
 e.a = 5
 

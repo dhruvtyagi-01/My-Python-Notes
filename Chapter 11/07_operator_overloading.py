@@ -4,7 +4,8 @@ class Number:
 
     def __add__(self, num):
         return self.n + num.n
-    
+
+
 m = Number(1)
 n = Number(2)
 

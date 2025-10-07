@@ -30,7 +30,8 @@ while True:
             0: "Gun",
         }
 
-        print(f"You chose {reverseDict[you]}\nComputer chose {reverseDict[computer]}")
+        print(
+            f"You chose {reverseDict[you]}\nComputer chose {reverseDict[computer]}")
 
         if (computer == you):
             print("Tie")

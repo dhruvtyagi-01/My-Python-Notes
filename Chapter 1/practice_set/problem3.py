@@ -1,5 +1,6 @@
 import os
 
+
 def print_directory_contents(dir_path):
     try:
         entries = os.listdir(dir_path)  # get list of names in the directory
@@ -14,6 +15,7 @@ def print_directory_contents(dir_path):
         print(f"Error: Permission denied for '{dir_path}'.")
     except OSError as e:
         print(f"Some OS error occurred: {e}")
+
 
 if __name__ == "__main__":
     directory = input("Enter the directory path: ")

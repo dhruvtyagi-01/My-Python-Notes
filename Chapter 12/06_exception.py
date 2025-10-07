@@ -5,8 +5,8 @@ try:
 except ValueError as v:
     print("Heyyyy")
     print(v)
-    
+
 except Exception as e:
-    print(e) 
+    print(e)
 
 print("Thank You")

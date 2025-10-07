@@ -1,7 +1,7 @@
 def rem(l, word):
-    n = [] 
+    n = []
     for item in l:
-        if not(item == word):
+        if not (item == word):
             n.append(item.strip(word))
     return n
 

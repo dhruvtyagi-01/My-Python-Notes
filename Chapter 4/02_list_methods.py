@@ -5,7 +5,7 @@ print(friends, "\n")
 friends.append("sweet")
 print(friends, "\n")
 
-num = [3,7,82,901,43,821,1,63,21]
+num = [3, 7, 82, 901, 43, 821, 1, 63, 21]
 
 # sort
 num.sort()
@@ -16,7 +16,7 @@ num.reverse()
 print(num, "\n")
 
 # insert
-num.insert(5, 92) # insert 92 such that its index in the list is 5
+num.insert(5, 92)  # insert 92 such that its index in the list is 5
 print(num, "\n")
 
 # pop

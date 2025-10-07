@@ -1,13 +1,13 @@
 state = ""
 
-while(True):
+while (True):
     inp = input(">")
-    if(inp.lower() == 'help'):
+    if (inp.lower() == 'help'):
         print("start - to start the car")
         print("stop - to stop the car")
         print("quit - to exit")
     elif inp.lower() == 'start':
-        if(state == "start"):
+        if (state == "start"):
             print("car is already moving!")
         else:
             print("The car has started , READY TO GO :)")

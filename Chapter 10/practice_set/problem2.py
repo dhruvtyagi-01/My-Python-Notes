@@ -16,6 +16,7 @@ class Calculator:
     def square_root(self):
         print(f"Square root is {self.n ** (1/2)}")
 
+
 Calculator.greet()
 
 value = float(input("Enter value to calculate:"))

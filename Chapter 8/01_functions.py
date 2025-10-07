@@ -4,6 +4,7 @@ def avg():
     c = int(input("Enter number:"))
 
     average = (a + b + c) / 3
-    print("The average is",average)
+    print("The average is", average)
+
 
 avg()

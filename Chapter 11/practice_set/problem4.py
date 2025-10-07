@@ -11,9 +11,9 @@ class Complex:
         imag_part = self.r * c2.i + self.i * c2.r
         return Complex(real_part, imag_part)
 
-    
     def __str__(self):
         return f"{self.r} + {self.i}i"
+
 
 c1 = Complex(3, 5)
 c2 = Complex(6, 2)

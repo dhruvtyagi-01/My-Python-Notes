@@ -1,6 +1,7 @@
 # def square(n):
 #     return n * n
 
-square = lambda x: x * x
+def square(x): return x * x
+
 
 print(square(10))

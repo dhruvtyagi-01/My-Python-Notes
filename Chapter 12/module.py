@@ -1,6 +1,7 @@
 def myFunc():
     print("Hello World!")
 
+
 myFunc()
 
 if __name__ == "__main__":

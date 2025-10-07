@@ -3,7 +3,7 @@ with open("poem.txt") as f:
 
 word = input("Enter the word you want to check:").lower()
 
-if(word in text):
+if (word in text):
     print(f"It contains \"{word}\"")
 
 else:

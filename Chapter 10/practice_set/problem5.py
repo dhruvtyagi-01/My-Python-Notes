@@ -1,5 +1,6 @@
-from random import randint # use of "from" keyword
+from random import randint  # use of "from" keyword
 # import random
+
 
 class Train:
 
@@ -7,13 +8,15 @@ class Train:
         self.trainNo = trainNo
 
     def bookTicket(self, fro, to):
-        print(f"Ticket is booked in train no:{self.trainNo} from {fro} to {to}")
+        print(
+            f"Ticket is booked in train no:{self.trainNo} from {fro} to {to}")
 
     def getStatus(self):
         print(f"Train no:{self.trainNo} is running")
 
     def getFare(self, fro, to):
-        print(f"Ticket fare in train no:{self.trainNo} from {fro} to {to} is {randint(10, 2000)}")
+        print(
+            f"Ticket fare in train no:{self.trainNo} from {fro} to {to} is {randint(10, 2000)}")
 
 
 train = Train(54236)

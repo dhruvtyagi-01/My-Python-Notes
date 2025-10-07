@@ -15,6 +15,7 @@ class Vector:
     def __str__(self):
         return f"Vector({self.x}i + {self.y}j + {self.z}k)"
 
+
 # Test the implementation
 v1 = Vector(1, 2, 3)
 v2 = Vector(4, 5, 6)

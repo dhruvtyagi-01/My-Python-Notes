@@ -1,12 +1,14 @@
 class Employee:
     def __init__(self):
         print("Constructor of Employee")
-    a = 1 
+    a = 1
+
 
 class Programmer(Employee):
     def __init__(self):
         print("Constructor of Programmer")
-    b = 2 
+    b = 2
+
 
 class Manager(Programmer):
     def __init__(self):
@@ -14,8 +16,9 @@ class Manager(Programmer):
         print("Constructor of Manager")
     c = 3
 
+
 o = Employee()
-print(o.a, "\n") # Prints the a attribute
+print(o.a, "\n")  # Prints the a attribute
 # print(o.b) # Shows an error as there is no b attribute in Employee class
 
 o = Programmer()

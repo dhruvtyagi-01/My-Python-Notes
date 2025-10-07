@@ -11,13 +11,15 @@ scores: Dict[str, int] = {"Alice": 90, "Bob": 85}
 
 # Union type for variables that can hold multiple types
 identifier: Union[int, str] = "ID123"
-identifier = 12345 # Also valid
+identifier = 12345  # Also valid
 
 n: int = 18
 
-fruits : str = "apple, banana, grape, mango"
+fruits: str = "apple, banana, grape, mango"
+
 
 def add(a: int, b: int) -> int:
     return a + b
+
 
 print(add(1, 4))

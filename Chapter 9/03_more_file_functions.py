@@ -15,7 +15,7 @@ f = open("file.txt")
 # Alternative for the above readline part
 line = f.readline()
 
-while(line != ""):
+while (line != ""):
     print(line)
     line = f.readline()
 

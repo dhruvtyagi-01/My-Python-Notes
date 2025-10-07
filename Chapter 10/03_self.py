@@ -1,5 +1,5 @@
-class Employee: 
-    language = "Py" # This is a class attribute
+class Employee:
+    language = "Py"  # This is a class attribute
     salary = 1200000
 
     def getInfo(self):
@@ -9,8 +9,9 @@ class Employee:
     def greet():
         print("Hello!")
 
+
 dhruv = Employee()
-dhruv.language = "C" # This is an instance attribute
+dhruv.language = "C"  # This is an instance attribute
 
 dhruv.greet()
 dhruv.getInfo()

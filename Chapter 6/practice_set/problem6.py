@@ -1,17 +1,17 @@
 marks = int(input("Enter marks:"))
 
-if(91 > marks > 100):
+if (91 > marks > 100):
     print("Excellent")
-elif(81 > marks > 90):
+elif (81 > marks > 90):
     print("A")
 
-if(71 > marks > 80):
+if (71 > marks > 80):
     print("B")
 
-if(61 > marks > 70):
+if (61 > marks > 70):
     print("C")
 
-if(51 > marks > 60):
+if (51 > marks > 60):
     print("D")
 
 else:

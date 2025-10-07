@@ -5,7 +5,7 @@ guess = 1
 
 print("\t\t--> GAME STARTED <--")
 
-while(True):
+while (True):
     target = int(input("Enter your guess:"))
 
     if target < 1 or target > 100:
@@ -16,12 +16,12 @@ while(True):
 
     if target < randomNum:
         print("Higher number please")
-    
+
     elif target > randomNum:
         print("Lower number please")
-    
+
     else:
         print("You won!")
         break
-    
+
 print(f"It took you {guess} guesses")
