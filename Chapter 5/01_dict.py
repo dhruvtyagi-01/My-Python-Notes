@@ -1,6 +1,6 @@
 fruits = {
     "mango": 1,
-    "grapes": 12,
+    "grapes": 2,
     "banana": 3
 }
 
