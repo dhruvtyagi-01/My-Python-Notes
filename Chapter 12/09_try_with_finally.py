@@ -10,6 +10,3 @@ def main():
 
     finally:
         print("Thank You!")
-
-
-main()
